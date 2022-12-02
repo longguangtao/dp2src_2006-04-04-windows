@@ -1,3 +1,5 @@
+package SingleThreadedExecution.Sample2;
+
 public class UserThread extends Thread {
     private final Gate gate;
     private final String myname;

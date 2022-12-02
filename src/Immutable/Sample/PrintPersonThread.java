@@ -1,3 +1,5 @@
+package Immutable.Sample;
+
 public class PrintPersonThread extends Thread {
     private Person person;
     public PrintPersonThread(Person person) {

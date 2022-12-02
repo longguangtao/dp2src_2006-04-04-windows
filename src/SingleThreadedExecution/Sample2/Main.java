@@ -1,3 +1,5 @@
+package SingleThreadedExecution.Sample2;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Testing Gate, hit CTRL+C to exit.");

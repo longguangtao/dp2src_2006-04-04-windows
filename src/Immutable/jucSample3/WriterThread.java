@@ -1,3 +1,5 @@
+package Immutable.jucSample3;
+
 import java.util.List;
 
 public class WriterThread extends Thread {

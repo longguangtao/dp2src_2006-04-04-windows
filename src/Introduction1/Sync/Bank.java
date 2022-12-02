@@ -1,3 +1,5 @@
+package Introduction1.Sync;
+
 public class Bank {
     private int money;
     private String name;

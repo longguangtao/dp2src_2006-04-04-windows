@@ -1,3 +1,5 @@
+package Introduction1.PrintThread;
+
 public class PrintThread extends Thread {
     private String message;
     public PrintThread(String message) {

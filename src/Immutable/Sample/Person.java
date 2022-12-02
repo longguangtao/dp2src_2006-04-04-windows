@@ -1,3 +1,5 @@
+package Immutable.Sample;
+
 public final class Person {
     private final String name;
     private final String address;

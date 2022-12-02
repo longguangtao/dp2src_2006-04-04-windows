@@ -1,3 +1,5 @@
+package Introduction1.jucThreadFactory;
+
 public class Printer implements Runnable {
     private String message;
     public Printer(String message) {

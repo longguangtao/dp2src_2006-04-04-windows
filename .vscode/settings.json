@@ -1,5 +1,10 @@
 {
     "java.project.sourcePaths": [
         "src"
-    ]
+    ],
+    "java.dependency.packagePresentation": "hierarchical",
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.debug.settings.showQualifiedNames": false,
+    "java.debug.settings.showStaticVariables": true,
+    "java.debug.settings.showHex": false
 }
