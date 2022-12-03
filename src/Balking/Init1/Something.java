@@ -1,3 +1,5 @@
+package Balking.Init1;
+
 public class Something {
     private boolean initialized = false;
     public synchronized void init() {

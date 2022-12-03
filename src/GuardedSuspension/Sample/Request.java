@@ -1,3 +1,5 @@
+package GuardedSuspension.Sample;
+
 public class Request {
     private final String name;
     public Request(String name) {

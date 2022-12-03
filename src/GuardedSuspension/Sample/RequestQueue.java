@@ -1,3 +1,5 @@
+package GuardedSuspension.Sample;
+
 import java.util.Queue;
 import java.util.LinkedList;
 

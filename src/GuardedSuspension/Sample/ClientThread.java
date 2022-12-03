@@ -1,3 +1,5 @@
+package GuardedSuspension.Sample;
+
 import java.util.Random;
 
 public class ClientThread extends Thread {

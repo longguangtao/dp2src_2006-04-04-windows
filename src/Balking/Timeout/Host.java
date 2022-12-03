@@ -1,3 +1,5 @@
+package Balking.Timeout;
+
 import java.util.concurrent.TimeoutException;
 
 public class Host {
