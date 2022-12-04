@@ -1,3 +1,5 @@
+package ProducerConsumer.jucSample1;
+
 import java.util.concurrent.ArrayBlockingQueue;
 
 public class Table extends ArrayBlockingQueue<String> {

@@ -1,4 +1,4 @@
-package ProducerConsumer.Sample;
+package ProducerConsumer.A5_8;
 
 import java.util.Random;
 

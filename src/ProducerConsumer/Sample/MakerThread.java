@@ -1,3 +1,5 @@
+package ProducerConsumer.Sample;
+
 import java.util.Random;
 
 public class MakerThread extends Thread {

@@ -1,4 +1,4 @@
-package ProducerConsumer.Sample;
+package ProducerConsumer.A5_8;
 
 public class Table {
     private final String[] buffer;
@@ -20,7 +20,7 @@ public class Table {
         buffer[tail] = cake;
         tail = (tail + 1) % buffer.length;
         count++;
-        notifyAll();
+        notify();
     }
     // 取蛋糕
     public synchronized String take() throws InterruptedException {
@@ -30,14 +30,8 @@ public class Table {
         String cake = buffer[head];
         head = (head + 1) % buffer.length;
         count--;
-        notifyAll();
+        notify();
         System.out.println(Thread.currentThread().getName() + " takes " + cake);
         return cake;
     }
-
-    public synchronized void clear() {
-        count = 0;
-    }
-
-
 }

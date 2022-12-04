@@ -1,4 +1,4 @@
-package ProducerConsumer.jucSample1;
+package ProducerConsumer.Q5_2;
 
 import java.util.Random;
 

@@ -1,3 +1,5 @@
+package ProducerConsumer.jucSample1;
+
 import java.util.Random;
 
 public class EaterThread extends Thread {

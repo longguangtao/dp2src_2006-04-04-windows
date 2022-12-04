@@ -1,4 +1,4 @@
-package ProducerConsumer.Sample;
+package ProducerConsumer.Q5_2;
 
 public class Table {
     private final String[] buffer;
@@ -34,10 +34,4 @@ public class Table {
         System.out.println(Thread.currentThread().getName() + " takes " + cake);
         return cake;
     }
-
-    public synchronized void clear() {
-        count = 0;
-    }
-
-
 }
