@@ -1,4 +1,4 @@
-package ReadWriteLock.Sample;
+package ReadWriteLock.A6_3a;
 
 public class Data {
     private final char[] buffer;

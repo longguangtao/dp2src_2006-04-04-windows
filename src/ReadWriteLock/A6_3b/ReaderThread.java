@@ -1,4 +1,4 @@
-package ReadWriteLock.jucSample;
+package ReadWriteLock.A6_3b;
 
 public class ReaderThread extends Thread {
     private final Data data;
@@ -7,10 +7,13 @@ public class ReaderThread extends Thread {
     }
     public void run() {
         try {
-            while (true) {
+            long begin = System.currentTimeMillis();
+            for (int i = 0; i < 20; i++) {
                 char[] readbuf = data.read();
                 System.out.println(Thread.currentThread().getName() + " reads " + String.valueOf(readbuf));
             }
+            long time = System.currentTimeMillis() - begin;
+            System.out.println(Thread.currentThread().getName() + ": time = " + time);
         } catch (InterruptedException e) {
         }
     }

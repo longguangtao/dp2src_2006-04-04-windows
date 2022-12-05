@@ -1,4 +1,4 @@
-package ReadWriteLock.jucSample;
+package ReadWriteLock.Q6_6;
 
 public class ReaderThread extends Thread {
     private final Data data;

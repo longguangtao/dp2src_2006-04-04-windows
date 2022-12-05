@@ -1,8 +1,7 @@
-package ReadWriteLock.Sample;
+package ReadWriteLock.Q6_2;
 
 public class Data {
     private final char[] buffer;
-    private final ReadWriteLock lock = new ReadWriteLock();
     public Data(int size) {
         this.buffer = new char[size];
         for (int i = 0; i < buffer.length; i++) {
@@ -10,20 +9,10 @@ public class Data {
         }
     }
     public char[] read() throws InterruptedException {
-        lock.readLock();
-        try {
-            return doRead();
-        } finally {
-            lock.readUnlock();
-        }
+        return doRead();
     }
     public void write(char c) throws InterruptedException {
-        lock.writeLock();
-        try {
-            doWrite(c);
-        } finally {
-            lock.writeUnlock();
-        }
+        doWrite(c);
     }
     private char[] doRead() {
         char[] newbuf = new char[buffer.length];

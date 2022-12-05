@@ -1,3 +1,5 @@
+package ReadWriteLock.Sample;
+
 public class ReaderThread extends Thread {
     private final Data data;
     public ReaderThread(Data data) {

@@ -1,4 +1,4 @@
-package ReadWriteLock.jucSample;
+package ReadWriteLock.Q6_6;
 
 import java.util.Random;
 

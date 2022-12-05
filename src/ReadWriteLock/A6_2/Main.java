@@ -1,4 +1,4 @@
-package ReadWriteLock.Sample;
+package ReadWriteLock.A6_2;
 
 public class Main {
     public static void main(String[] args) {

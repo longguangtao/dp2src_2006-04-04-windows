@@ -1,4 +1,4 @@
-package ReadWriteLock.Sample;
+package ReadWriteLock.A6_3a;
 
 public final class ReadWriteLock {
     private int readingReaders = 0; // (A)…实际正在读取中的线程个数

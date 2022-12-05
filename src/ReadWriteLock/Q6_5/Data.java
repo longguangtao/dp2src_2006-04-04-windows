@@ -1,4 +1,6 @@
-package ReadWriteLock.Sample;
+package ReadWriteLock.Q6_5;
+
+import ReadWriteLock.Sample.ReadWriteLock;
 
 public class Data {
     private final char[] buffer;
@@ -10,16 +12,16 @@ public class Data {
         }
     }
     public char[] read() throws InterruptedException {
-        lock.readLock();
         try {
+            lock.readLock();
             return doRead();
         } finally {
             lock.readUnlock();
         }
     }
     public void write(char c) throws InterruptedException {
-        lock.writeLock();
         try {
+            lock.writeLock();
             doWrite(c);
         } finally {
             lock.writeUnlock();

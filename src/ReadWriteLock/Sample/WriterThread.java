@@ -1,3 +1,5 @@
+package ReadWriteLock.Sample;
+
 import java.util.Random;
 
 public class WriterThread extends Thread {
