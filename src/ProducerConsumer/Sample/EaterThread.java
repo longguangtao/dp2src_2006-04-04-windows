@@ -13,7 +13,7 @@ public class EaterThread extends Thread {
     public void run() {
         try {
             while (true) {
-                String cake = table.take();
+                /* String cake = */ table.take();
                 Thread.sleep(random.nextInt(1000));
             }
         } catch (InterruptedException e) {

@@ -1,3 +1,5 @@
+package ReadWriteLock.Q6_3;
+
 public class Data {
     private final char[] buffer;
     public Data(int size) {

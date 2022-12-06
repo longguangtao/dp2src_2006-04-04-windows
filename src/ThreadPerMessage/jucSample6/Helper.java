@@ -1,3 +1,5 @@
+package ThreadPerMessage.jucSample6;
+
 public class Helper {
     public void handle(int count, char c) {
         System.out.println("        handle(" + count + ", " + c + ") BEGIN");

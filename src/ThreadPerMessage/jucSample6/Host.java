@@ -1,3 +1,5 @@
+package ThreadPerMessage.jucSample6;
+
 import java.util.concurrent.Executor;
 
 public class Host {

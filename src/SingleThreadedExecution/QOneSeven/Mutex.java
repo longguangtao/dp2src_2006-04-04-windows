@@ -6,6 +6,9 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Mutex extends ReentrantLock{
+    /**
+     *
+     */
     private static Lock lock = new Lock() {
 
         @Override
@@ -46,6 +49,10 @@ public class Mutex extends ReentrantLock{
         
     };
 
+    static {
+        System.out.println(lock.toString());
+    }
+    
     // public synchronized static void lock() {
     //     lock.lock();
     // }

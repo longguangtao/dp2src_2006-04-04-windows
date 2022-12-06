@@ -1,3 +1,5 @@
+package ThreadPerMessage.jucSample7;
+
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
