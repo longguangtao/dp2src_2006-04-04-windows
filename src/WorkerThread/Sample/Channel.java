@@ -1,3 +1,5 @@
+package WorkerThread.Sample;
+
 public class Channel {
     private static final int MAX_REQUEST = 100;
     private final Request[] requestQueue;
@@ -23,29 +25,28 @@ public class Channel {
             threadPool[i].start();
         }
     }
-    public synchronized void putRequest(Request request) {
+    public synchronized void putRequest(Request request) throws InterruptedException {
         while (count >= requestQueue.length) {
-            try {
                 wait();
-            } catch (InterruptedException e) {
-            }
         }
         requestQueue[tail] = request;
         tail = (tail + 1) % requestQueue.length;
         count++;
         notifyAll();
     }
-    public synchronized Request takeRequest() {
+    public synchronized Request takeRequest() throws InterruptedException {
         while (count <= 0) {
-            try {
                 wait();
-            } catch (InterruptedException e) {
-            }
         }
         Request request = requestQueue[head];
         head = (head + 1) % requestQueue.length;
         count--;
         notifyAll();
         return request;
+    }
+    public void stopAllWorkers() {
+        for (int i = 0; i < threadPool.length; i++) {
+            threadPool[i].interrupt();
+        }
     }
 }

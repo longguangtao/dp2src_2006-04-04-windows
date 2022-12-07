@@ -1,3 +1,5 @@
+package WorkerThread.A8_2;
+
 public final class Channel {
     public Channel(int threads) {
     }

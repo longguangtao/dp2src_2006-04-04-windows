@@ -1,3 +1,8 @@
+package WorkerThread.Q8_6;
+
+import WorkerThread.Sample.Channel;
+import WorkerThread.Sample.ClientThread;
+
 public class Main {
     public static void main(String[] args) {
         Channel channel = new Channel(5);   // 工人线程的个数

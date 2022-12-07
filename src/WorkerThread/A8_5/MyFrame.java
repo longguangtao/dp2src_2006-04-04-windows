@@ -1,3 +1,5 @@
+package WorkerThread.A8_5;
+
 import javax.swing.JFrame;
 import javax.swing.JButton;
 import javax.swing.JLabel;
@@ -37,16 +39,21 @@ public class MyFrame extends JFrame implements ActionListener {
                         // executor被事件分发线程调用
                         final Runnable executor = new Runnable() {
                             public void run() {
+                                // try {
+                                //     Thread.sleep(1000);
+                                // } catch (InterruptedException e) {
+                                //     e.printStackTrace();
+                                // }
                                 System.out.println(Thread.currentThread().getName() + ":executor:BEGIN:string = " + string);
                                 label.setText(string);
                                 System.out.println(Thread.currentThread().getName() + ":executor:END");
                             }
                         };
-
+                        
                         // 让事件分发线程调用executor
                         SwingUtilities.invokeLater(executor);
-
                         Thread.sleep(1000);
+                        
                     } catch (Exception e) {
                         e.printStackTrace();
                     }

@@ -1,20 +1,18 @@
-import java.util.Random;
+package WorkerThread.A8_6;
 
-public class ClientThread extends Thread {
+public class WorkerThread extends Thread {
     private final Channel channel;
-    private static final Random random = new Random();
     private volatile boolean terminated = false;
-    public ClientThread(String name, Channel channel) {
+    public WorkerThread(String name, Channel channel) {
         super(name);
         this.channel = channel;
     }
     public void run() {
         try {
-            for (int i = 0; !terminated; i++) {
+            while (!terminated) {
                 try {
-                    Request request = new Request(getName(), i);
-                    channel.putRequest(request);
-                    Thread.sleep(random.nextInt(1000));
+                    Request request = channel.takeRequest();
+                    request.execute();
                 } catch (InterruptedException e) {
                     terminated = true;
                 }

@@ -1,3 +1,5 @@
+package WorkerThread.Sample;
+
 import java.util.Random;
 
 public class ClientThread extends Thread {
@@ -16,5 +18,8 @@ public class ClientThread extends Thread {
             }
         } catch (InterruptedException e) {
         }
+    }
+    public void stopThread() {
+        this.interrupt();
     }
 }

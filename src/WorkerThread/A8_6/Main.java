@@ -1,3 +1,5 @@
+package WorkerThread.A8_6;
+
 public class Main {
     public static void main(String[] args) {
         Channel channel = new Channel(5);   // 工人线程的个数

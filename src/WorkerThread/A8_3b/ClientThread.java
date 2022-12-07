@@ -1,3 +1,5 @@
+package WorkerThread.A8_3b;
+
 public class ClientThread extends Thread {
     private final Channel channel;
     public ClientThread(String name, Channel channel) {

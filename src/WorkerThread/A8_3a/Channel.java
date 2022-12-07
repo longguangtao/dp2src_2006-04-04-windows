@@ -1,4 +1,6 @@
-public final class Channel {
+package WorkerThread.A8_3a;
+
+public class Channel {
     private static final int MAX_REQUEST = 100;
     private final Request[] requestQueue;
     private int tail;  // 下次putRequest的位置
@@ -23,23 +25,24 @@ public final class Channel {
             threadPool[i].start();
         }
     }
-    public void stopAllWorkers() {
-        for (int i = 0; i < threadPool.length; i++) {
-            threadPool[i].stopThread();
-        }
-    }
-    public synchronized void putRequest(Request request) throws InterruptedException {
+    public synchronized void putRequest(Request request) {
         while (count >= requestQueue.length) {
-            wait();
+            try {
+                wait();
+            } catch (InterruptedException e) {
+            }
         }
         requestQueue[tail] = request;
         tail = (tail + 1) % requestQueue.length;
         count++;
         notifyAll();
     }
-    public synchronized Request takeRequest() throws InterruptedException {
+    public synchronized Request takeRequest() {
         while (count <= 0) {
-            wait();
+            try {
+                wait();
+            } catch (InterruptedException e) {
+            }
         }
         Request request = requestQueue[head];
         head = (head + 1) % requestQueue.length;
