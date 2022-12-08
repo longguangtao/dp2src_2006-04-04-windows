@@ -1,16 +1,20 @@
-import content.Retriever;
-import content.Content;
+package Future.Q9_3;
+
 
 import java.io.IOException;
+
+import Future.Q9_3.content.Content;
+import Future.Q9_3.content.Retriever;
+
 import java.io.FileOutputStream;
 
 public class Main {
     public static void main(String args[]) {
         long start = System.currentTimeMillis();
 
-        Content content1 = Retriever.retrieve("http://www.yahoo.com/");
-        Content content2 = Retriever.retrieve("http://www.google.com/");
-        Content content3 = Retriever.retrieve("http://www.hyuki.com/");
+        Content content1 = Retriever.retrieve("https://www.baidu.com/");
+        Content content2 = Retriever.retrieve("https://www.bilibili.com/");
+        Content content3 = Retriever.retrieve("https://www.gitee.com/");
 
         saveToFile("yahoo.html", content1);
         saveToFile("google.html", content2);

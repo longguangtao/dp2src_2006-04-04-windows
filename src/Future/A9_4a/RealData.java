@@ -1,4 +1,4 @@
-package Future.jucSample;
+package Future.A9_4a;
 
 public class RealData implements Data {
     private final String content;

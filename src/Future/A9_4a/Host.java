@@ -1,4 +1,4 @@
-package Future.Sample;
+package Future.A9_4a;
 
 public class Host {
     public Data request(final int count, final char c) {
@@ -10,8 +10,12 @@ public class Host {
         // (2) 启动一个新线程，用于创建RealData的实例
         new Thread() {
             public void run() {
-                RealData realdata = new RealData(count, c);
-                future.setRealData(realdata);
+                try {
+                    RealData realdata = new RealData(count, c);
+                    future.setRealData(realdata);
+                } catch (Exception e) {
+                    future.setException(e);
+                }
             }
         }.start();
 

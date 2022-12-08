@@ -1,0 +1,875 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Future.A9_4b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Future.A9_4a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Future.A9_3b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Future.A9_3a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Future.Q9_4.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "ActiveObject.Sample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "ActiveObject.jucSample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "AppendixB.DoubleCheckedLocking.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(3)",
+            "request": "launch",
+            "mainClass": "AppendixB.Final1.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(4)",
+            "request": "launch",
+            "mainClass": "AppendixB.Final2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(5)",
+            "request": "launch",
+            "mainClass": "AppendixB.InitializationOnDemandHolder.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(6)",
+            "request": "launch",
+            "mainClass": "AppendixB.SingleThreadedExecution.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(7)",
+            "request": "launch",
+            "mainClass": "AppendixB.Synchronized1.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(8)",
+            "request": "launch",
+            "mainClass": "AppendixB.Synchronized2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(9)",
+            "request": "launch",
+            "mainClass": "AppendixB.Volatile1.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(10)",
+            "request": "launch",
+            "mainClass": "AppendixB.Volatile2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(11)",
+            "request": "launch",
+            "mainClass": "AppendixB.Volatile3.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(12)",
+            "request": "launch",
+            "mainClass": "Balking.A4_2a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(13)",
+            "request": "launch",
+            "mainClass": "Balking.A4_2b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(14)",
+            "request": "launch",
+            "mainClass": "Balking.A4_4a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(15)",
+            "request": "launch",
+            "mainClass": "Balking.A4_4b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(16)",
+            "request": "launch",
+            "mainClass": "Balking.Q4_5.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(17)",
+            "request": "launch",
+            "mainClass": "Balking.Sample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(18)",
+            "request": "launch",
+            "mainClass": "Balking.Timeout.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(19)",
+            "request": "launch",
+            "mainClass": "Future.Q9_3.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(20)",
+            "request": "launch",
+            "mainClass": "Future.Sample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(21)",
+            "request": "launch",
+            "mainClass": "Future.jucSample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(22)",
+            "request": "launch",
+            "mainClass": "GuardedSuspension.AThreeFive.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(23)",
+            "request": "launch",
+            "mainClass": "GuardedSuspension.AThreeSix.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(24)",
+            "request": "launch",
+            "mainClass": "GuardedSuspension.AThreeThree.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(25)",
+            "request": "launch",
+            "mainClass": "GuardedSuspension.QThreeFive.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(26)",
+            "request": "launch",
+            "mainClass": "GuardedSuspension.QThreeSix.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(27)",
+            "request": "launch",
+            "mainClass": "GuardedSuspension.Sample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(28)",
+            "request": "launch",
+            "mainClass": "GuardedSuspension.jucSample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(29)",
+            "request": "launch",
+            "mainClass": "Immutable.ATwoFivea.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(30)",
+            "request": "launch",
+            "mainClass": "Immutable.ATwoFiveb.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(31)",
+            "request": "launch",
+            "mainClass": "Immutable.ATwoFour.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(32)",
+            "request": "launch",
+            "mainClass": "Immutable.ATwoSixa.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(33)",
+            "request": "launch",
+            "mainClass": "Immutable.ATwoSixb.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(34)",
+            "request": "launch",
+            "mainClass": "Immutable.ATwoTwo.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(35)",
+            "request": "launch",
+            "mainClass": "Immutable.QTwoThree.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(36)",
+            "request": "launch",
+            "mainClass": "Immutable.Sample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(37)",
+            "request": "launch",
+            "mainClass": "Immutable.jucSample1.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(38)",
+            "request": "launch",
+            "mainClass": "Immutable.jucSample2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(39)",
+            "request": "launch",
+            "mainClass": "Immutable.jucSample3.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(40)",
+            "request": "launch",
+            "mainClass": "Introduction1.AOneFour.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(41)",
+            "request": "launch",
+            "mainClass": "Introduction1.PrintThread.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(42)",
+            "request": "launch",
+            "mainClass": "Introduction1.Printer.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(43)",
+            "request": "launch",
+            "mainClass": "Introduction1.QOneThree.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(44)",
+            "request": "launch",
+            "mainClass": "Introduction1.SingleThread.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(45)",
+            "request": "launch",
+            "mainClass": "Introduction1.Sleep.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(46)",
+            "request": "launch",
+            "mainClass": "Introduction1.TwoThreads.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(47)",
+            "request": "launch",
+            "mainClass": "Introduction1.jucThreadFactory.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(48)",
+            "request": "launch",
+            "mainClass": "ProducerConsumer.A5_4.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(49)",
+            "request": "launch",
+            "mainClass": "ProducerConsumer.A5_5.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(50)",
+            "request": "launch",
+            "mainClass": "ProducerConsumer.A5_6.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(51)",
+            "request": "launch",
+            "mainClass": "ProducerConsumer.A5_7.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(52)",
+            "request": "launch",
+            "mainClass": "ProducerConsumer.A5_8.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(53)",
+            "request": "launch",
+            "mainClass": "ProducerConsumer.A5_9.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(54)",
+            "request": "launch",
+            "mainClass": "ProducerConsumer.Q5_2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(55)",
+            "request": "launch",
+            "mainClass": "ProducerConsumer.Q5_7.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(56)",
+            "request": "launch",
+            "mainClass": "ProducerConsumer.Sample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(57)",
+            "request": "launch",
+            "mainClass": "ProducerConsumer.jucSample1.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(58)",
+            "request": "launch",
+            "mainClass": "ProducerConsumer.jucSample2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(59)",
+            "request": "launch",
+            "mainClass": "ReadWriteLock.A6_2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(60)",
+            "request": "launch",
+            "mainClass": "ReadWriteLock.A6_3a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(61)",
+            "request": "launch",
+            "mainClass": "ReadWriteLock.A6_3b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(62)",
+            "request": "launch",
+            "mainClass": "ReadWriteLock.A6_4a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(63)",
+            "request": "launch",
+            "mainClass": "ReadWriteLock.A6_4b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(64)",
+            "request": "launch",
+            "mainClass": "ReadWriteLock.Q6_6.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(65)",
+            "request": "launch",
+            "mainClass": "ReadWriteLock.Sample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(66)",
+            "request": "launch",
+            "mainClass": "ReadWriteLock.jucSample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(67)",
+            "request": "launch",
+            "mainClass": "SingleThreadedExecution.AOneFive.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(68)",
+            "request": "launch",
+            "mainClass": "SingleThreadedExecution.AOneOne.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(69)",
+            "request": "launch",
+            "mainClass": "SingleThreadedExecution.AOneSevenA.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(70)",
+            "request": "launch",
+            "mainClass": "SingleThreadedExecution.AOneSevenB.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(71)",
+            "request": "launch",
+            "mainClass": "SingleThreadedExecution.AOneSevenC.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(72)",
+            "request": "launch",
+            "mainClass": "SingleThreadedExecution.AOneSixA.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(73)",
+            "request": "launch",
+            "mainClass": "SingleThreadedExecution.AOneSixB.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(74)",
+            "request": "launch",
+            "mainClass": "SingleThreadedExecution.QOneSix.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(75)",
+            "request": "launch",
+            "mainClass": "SingleThreadedExecution.Sample1.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(76)",
+            "request": "launch",
+            "mainClass": "SingleThreadedExecution.Sample2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(77)",
+            "request": "launch",
+            "mainClass": "SingleThreadedExecution.jucSemaphore.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(78)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(79)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_3.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(80)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_4a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(81)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_4b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(82)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_5a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(83)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_5b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(84)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_5c.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(85)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_5d.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(86)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_6a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(87)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_6b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(88)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_7a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(89)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_7b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(90)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.A7_8.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(91)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.Q7_5.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(92)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.Q7_6.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(93)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.Q7_7.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(94)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.Q7_8.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(95)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.Sample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(96)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.jucSample1.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(97)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.jucSample2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(98)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.jucSample3.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(99)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.jucSample4.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(100)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.jucSample5.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(101)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.jucSample6.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(102)",
+            "request": "launch",
+            "mainClass": "ThreadPerMessage.jucSample7.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(103)",
+            "request": "launch",
+            "mainClass": "ThreadSpecificStorage.Sample1.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(104)",
+            "request": "launch",
+            "mainClass": "ThreadSpecificStorage.Sample2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(105)",
+            "request": "launch",
+            "mainClass": "TwoPhaseTermination.Hook.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(106)",
+            "request": "launch",
+            "mainClass": "TwoPhaseTermination.Sample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(107)",
+            "request": "launch",
+            "mainClass": "TwoPhaseTermination.jucSample1.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(108)",
+            "request": "launch",
+            "mainClass": "TwoPhaseTermination.jucSample2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(109)",
+            "request": "launch",
+            "mainClass": "WorkerThread.A8_2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(110)",
+            "request": "launch",
+            "mainClass": "WorkerThread.A8_3a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(111)",
+            "request": "launch",
+            "mainClass": "WorkerThread.A8_3b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(112)",
+            "request": "launch",
+            "mainClass": "WorkerThread.A8_5.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(113)",
+            "request": "launch",
+            "mainClass": "WorkerThread.A8_6.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(114)",
+            "request": "launch",
+            "mainClass": "WorkerThread.Q8_5.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(115)",
+            "request": "launch",
+            "mainClass": "WorkerThread.Q8_6.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(116)",
+            "request": "launch",
+            "mainClass": "WorkerThread.Sample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(117)",
+            "request": "launch",
+            "mainClass": "WorkerThread.jucSample.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        }
+    ]
+}

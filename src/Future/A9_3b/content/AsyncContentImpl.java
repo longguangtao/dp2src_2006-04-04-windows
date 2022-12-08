@@ -1,22 +1,22 @@
-package Future.jucSample;
+package Future.A9_3b.content;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.FutureTask;
 import java.util.concurrent.ExecutionException;
 
-public class FutureData extends FutureTask<RealData> implements Data {
-    public FutureData(Callable<RealData> callable) {
+class AsyncContentImpl extends FutureTask<SyncContentImpl> implements Content {
+    public AsyncContentImpl(Callable<SyncContentImpl> callable) {
         super(callable);
     }
-    public String getContent() {
-        String string = null;
+    public byte[] getBytes() {
+        byte[] bytes = null;
         try {
-            string = get().getContent();
+            bytes = get().getBytes();
         } catch (InterruptedException e) {
             e.printStackTrace();
         } catch (ExecutionException e) {
             e.printStackTrace();
         }
-        return string;
+        return bytes;
     }
 }

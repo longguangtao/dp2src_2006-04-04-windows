@@ -1,4 +1,4 @@
-package content;
+package Future.Q9_3.content;
 
 import java.io.DataInputStream;
 import java.io.EOFException;
@@ -6,6 +6,7 @@ import java.net.URL;
 
 class SyncContentImpl implements Content {
     private byte[] contentbytes;
+
     public SyncContentImpl(String urlstr) {
         System.out.println(Thread.currentThread().getName() + ": Getting " + urlstr);
         try {
@@ -22,7 +23,7 @@ class SyncContentImpl implements Content {
                         buffer = largerbuffer;
                         // System.out.println("Enlarging buffer to " + buffer.length);
                     }
-                    buffer[index++] = (byte)c;
+                    buffer[index++] = (byte) c;
                     // System.out.print("Getting " + index + " bytes from " + urlstr);
                 }
             } catch (EOFException e) {
@@ -35,7 +36,9 @@ class SyncContentImpl implements Content {
             e.printStackTrace();
         }
     }
+
     public byte[] getBytes() {
         return contentbytes;
     }
+    
 }

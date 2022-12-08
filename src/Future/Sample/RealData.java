@@ -1,3 +1,5 @@
+package Future.Sample;
+
 public class RealData implements Data {
     private final String content;
     public RealData(int count, char c) {
