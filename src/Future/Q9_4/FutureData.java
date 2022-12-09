@@ -2,9 +2,7 @@ package Future.Q9_4;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class FutureData implements Data {
     private RealData realdata = null;
@@ -18,8 +16,6 @@ public class FutureData implements Data {
         notifyAll();
     }
     public synchronized String getContent() {
-        
-        
         
         while (!ready) {
             try {

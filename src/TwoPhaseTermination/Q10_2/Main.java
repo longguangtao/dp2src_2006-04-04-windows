@@ -1,6 +1,4 @@
-package TwoPhaseTermination.Sample;
-
-import TwoPhaseTermination.Q10_4.GracefulThread;
+package TwoPhaseTermination.Q10_2;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,8 +6,6 @@ public class Main {
         try {
             // 启动线程
             CountupThread t = new CountupThread();
-            // GracefulThread t = new GracefulThread();
- 
             t.start();
 
             // 稍微间隔一段时间

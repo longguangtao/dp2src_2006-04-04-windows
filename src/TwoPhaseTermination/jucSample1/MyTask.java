@@ -1,3 +1,5 @@
+package TwoPhaseTermination.jucSample1;
+
 import java.util.Random;
 
 import java.util.concurrent.CountDownLatch;

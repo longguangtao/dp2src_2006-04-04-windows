@@ -8,6 +8,48 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "TwoPhaseTermination.Q10_8.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "TwoPhaseTermination.A10_7.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "TwoPhaseTermination.Q10_7.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "TwoPhaseTermination.A10_5.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "TwoPhaseTermination.Q10_5.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "TwoPhaseTermination.Q10_2.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "Future.A9_4b.Main",
             "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
         },
