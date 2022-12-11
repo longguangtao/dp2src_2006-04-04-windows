@@ -1,3 +1,5 @@
+package ThreadSpecificStorage.A11_6;
+
 public class Main {
     private static final int TASKS = 10;
     public static void main(String[] args) {

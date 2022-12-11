@@ -1,7 +1,9 @@
+package ThreadSpecificStorage.Sample2;
+
 public class Log {
     private static final ThreadLocal<TSLog> tsLogCollection = new ThreadLocal<TSLog>();
 
-    // 写日志
+    // 写日志微软雅黑
     public static void println(String s) {
         getTSLog().println(s);
     }

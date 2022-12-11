@@ -1,7 +1,5 @@
 package TwoPhaseTermination.Sample;
 
-import TwoPhaseTermination.Q10_4.GracefulThread;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println("main: BEGIN");

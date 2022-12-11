@@ -1,3 +1,5 @@
+package ThreadSpecificStorage.A11_6;
+
 import java.io.PrintWriter;
 import java.io.FileWriter;
 import java.io.IOException;

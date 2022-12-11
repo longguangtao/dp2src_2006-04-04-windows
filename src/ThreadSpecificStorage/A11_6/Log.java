@@ -1,7 +1,9 @@
+package ThreadSpecificStorage.A11_6;
+
 public class Log {
     private static final ThreadLocal<TSLog> tsLogCollection = new ThreadLocal<TSLog>();
 
-    // 写日志
+    // 写日志く
     public static void println(String s) {
         getTSLog().println(s);
     }
@@ -11,7 +13,7 @@ public class Log {
         getTSLog().close();
     }
 
-    // 获取线程特有的日志
+    // 获得线程特有的日志
     private static TSLog getTSLog() {
         TSLog tsLog = tsLogCollection.get();
 

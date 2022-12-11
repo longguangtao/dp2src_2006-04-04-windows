@@ -33,6 +33,7 @@ public class CountupThread extends GracefulThread {
     // }
 
     // 操作
+    @Override
     protected void doWork() throws InterruptedException {
         counter++;
         System.out.println("doWork: counter = " + counter);
@@ -40,6 +41,7 @@ public class CountupThread extends GracefulThread {
     }
 
     // 终止处理
+    @Override
     protected void doShutdown() {
         System.out.println("doShutdown: counter = " + counter);
     }

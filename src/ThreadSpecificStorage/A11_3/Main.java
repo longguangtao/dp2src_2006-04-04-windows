@@ -1,3 +1,5 @@
+package ThreadSpecificStorage.A11_3;
+
 public class Main {
     public static void main(String[] args) {
         new ClientThread("Alice").start();

@@ -8,6 +8,41 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "ThreadSpecificStorage.A11_6.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "ThreadSpecificStorage.A11_3.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "ThreadSpecificStorage.Q11_6.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "ThreadSpecificStorage.Q11_4.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "TwoPhaseTermination.A10_3.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "TwoPhaseTermination.Q10_8.Main",
             "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
         },

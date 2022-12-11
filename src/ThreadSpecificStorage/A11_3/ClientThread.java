@@ -1,7 +1,8 @@
+package ThreadSpecificStorage.A11_3;
+
 public class ClientThread extends Thread {
     public ClientThread(String name) {
         super(name);
-        Log.println("constructor is called.");
     }
     public void run() {
         System.out.println(getName() + " BEGIN");
@@ -12,7 +13,7 @@ public class ClientThread extends Thread {
             } catch (InterruptedException e) {
             }
         }
-        Log.close();
+        // 不再需要Log.close()
         System.out.println(getName() + " END");
     }
 }

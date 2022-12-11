@@ -47,7 +47,7 @@ public class Main {
                 int x = 1 / 0;
 
                 // 不会来到这里
-                System.out.println("MyThread:END");
+                System.out.println("MyThread:END" + x);
             }
         }.start();
 

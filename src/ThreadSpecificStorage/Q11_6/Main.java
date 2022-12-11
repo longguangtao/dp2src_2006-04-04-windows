@@ -1,3 +1,5 @@
+package ThreadSpecificStorage.Q11_6;
+
 import java.util.concurrent.Executors;
 import java.util.concurrent.ExecutorService;
 
@@ -12,12 +14,12 @@ public class Main {
                 Runnable printTask = new Runnable() {
                     public void run() {
                         Log.println("Hello!");
-                        Log.close();
                     }
                 };
                 // 执行任务
                 service.execute(printTask);
             }
+            Log.close();
         } finally {
             service.shutdown();
         }

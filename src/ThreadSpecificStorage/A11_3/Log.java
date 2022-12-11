@@ -1,3 +1,5 @@
+package ThreadSpecificStorage.A11_3;
+
 public class Log {
     private static final ThreadLocal<TSLog> tsLogCollection = new ThreadLocal<TSLog>();
 
