@@ -1,7 +1,9 @@
-import activeobject.ActiveObject;
+package ActiveObject.jucSample;
 
-import java.util.concurrent.Future;
 import java.util.concurrent.RejectedExecutionException;
+
+import ActiveObject.jucSample.activeobject.ActiveObject;
+
 import java.util.concurrent.CancellationException;
 
 public class DisplayClientThread extends Thread {

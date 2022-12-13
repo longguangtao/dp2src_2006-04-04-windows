@@ -1,4 +1,4 @@
-package activeobject;
+package ActiveObject.Sample.activeobject;
 
 public class ActiveObjectFactory {
     public static ActiveObject createActiveObject() {

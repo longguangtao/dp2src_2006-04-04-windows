@@ -1,5 +1,7 @@
-import activeobject.ActiveObject;
-import activeobject.ActiveObjectFactory;
+package ActiveObject.jucSample;
+
+import ActiveObject.jucSample.activeobject.ActiveObject;
+import ActiveObject.jucSample.activeobject.ActiveObjectFactory;
 
 public class Main {
     public static void main(String[] args) {

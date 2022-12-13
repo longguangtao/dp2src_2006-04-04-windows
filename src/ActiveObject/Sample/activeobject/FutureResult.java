@@ -1,4 +1,4 @@
-package activeobject;
+package ActiveObject.Sample.activeobject;
 
 class FutureResult<T> extends Result<T> {
     private Result<T> result;

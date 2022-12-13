@@ -1,5 +1,7 @@
-import activeobject.ActiveObject;
-import activeobject.Result;
+package ActiveObject.Sample;
+
+import ActiveObject.Sample.activeobject.ActiveObject;
+import ActiveObject.Sample.activeobject.Result;
 
 public class MakerClientThread extends Thread {
     private final ActiveObject activeObject;

@@ -1,4 +1,4 @@
-package activeobject;
+package ActiveObject.Sample.activeobject;
 
 class RealResult<T> extends Result<T> {
     private final T resultValue;

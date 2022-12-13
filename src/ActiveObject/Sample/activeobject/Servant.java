@@ -1,4 +1,6 @@
-package activeobject;
+package ActiveObject.Sample.activeobject;
+
+import java.math.BigDecimal;
 
 class Servant implements ActiveObject {
     public Result<String> makeString(int count, char fillchar) {
@@ -12,11 +14,23 @@ class Servant implements ActiveObject {
         }
         return new RealResult<String>(new String(buffer));
     }
+
     public void displayString(String string) {
         try {
             System.out.println("displayString: " + string);
             Thread.sleep(10);
         } catch (InterruptedException e) {
+        }
+    }
+
+    @Override
+    public Result<String> add(String x, String y) {
+        try {
+            BigDecimal a = new BigDecimal(x);
+            BigDecimal b = new BigDecimal(y);
+            return new RealResult<String>(a.add(b).toString());
+        } catch (Exception e) {
+            return null;
         }
     }
 }

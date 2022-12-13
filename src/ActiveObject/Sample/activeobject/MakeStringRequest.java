@@ -1,4 +1,4 @@
-package activeobject;
+package ActiveObject.Sample.activeobject;
 
 class MakeStringRequest extends MethodRequest<String> {
     private final int count;

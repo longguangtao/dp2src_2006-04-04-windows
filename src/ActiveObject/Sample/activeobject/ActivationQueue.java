@@ -1,4 +1,5 @@
-package activeobject;
+package ActiveObject.Sample.activeobject;
+
 
 class ActivationQueue {
     private static final int MAX_METHOD_REQUEST = 100;

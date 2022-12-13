@@ -1,4 +1,5 @@
-package activeobject;
+package ActiveObject.jucSample.activeobject;
+
 
 public class ActiveObjectFactory {
     public static ActiveObject createActiveObject() {

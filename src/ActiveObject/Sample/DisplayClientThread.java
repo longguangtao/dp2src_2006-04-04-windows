@@ -1,5 +1,6 @@
-import activeobject.ActiveObject;
-import activeobject.Result;
+package ActiveObject.Sample;
+
+import ActiveObject.Sample.activeobject.ActiveObject;
 
 public class DisplayClientThread extends Thread {
     private final ActiveObject activeObject;

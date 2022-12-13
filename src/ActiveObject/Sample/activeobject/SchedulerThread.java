@@ -1,4 +1,4 @@
-package activeobject;
+package ActiveObject.Sample.activeobject;
 
 class SchedulerThread extends Thread {
     private final ActivationQueue queue;

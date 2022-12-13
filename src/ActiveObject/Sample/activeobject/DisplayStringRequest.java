@@ -1,4 +1,4 @@
-package activeobject;
+package ActiveObject.Sample.activeobject;
 
 class DisplayStringRequest extends MethodRequest<Object> {
     private final String string;

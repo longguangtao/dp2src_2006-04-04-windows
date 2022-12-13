@@ -8,6 +8,34 @@
             "type": "java",
             "name": "Launch Main",
             "request": "launch",
+            "mainClass": "ActiveObject.A12_3a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "ActiveObject.A12_2a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "ActiveObject.Q12_2b.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "ActiveObject.Q12_2a.Main",
+            "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
             "mainClass": "ThreadSpecificStorage.A11_6.Main",
             "projectName": "dp2src_2006-04-04-windows_aa02f3ea"
         },

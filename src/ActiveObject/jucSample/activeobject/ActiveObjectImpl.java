@@ -1,7 +1,8 @@
-package activeobject;
+package ActiveObject.jucSample.activeobject;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ExecutorService;
+import java.math.BigDecimal;
 import java.util.concurrent.Callable;
 import java.util.concurrent.Future;
 
@@ -15,6 +16,7 @@ class ActiveObjectImpl implements ActiveObject {
     }
 
     // 有返回值的调用
+    @Override
     public Future<String> makeString(final int count, final char fillchar) {
         // 请求
         class MakeStringRequest implements Callable<String> {
@@ -35,6 +37,7 @@ class ActiveObjectImpl implements ActiveObject {
     }
 
     // 没有返回值的调用
+    @Override
     public void displayString(final String string) {
         // 请求
         class DisplayStringRequest implements Runnable {
@@ -48,5 +51,21 @@ class ActiveObjectImpl implements ActiveObject {
         }
         // 发出请求
         service.execute(new DisplayStringRequest());
+    }
+
+    @Override
+    public Future<String> add(final String x, final String y) {
+        class AddRequest implements Callable<String> {
+            @Override
+            public String call() throws Exception {
+                try {
+                    Thread.sleep(100);
+                } catch (InterruptedException e) {
+                }
+                return new BigDecimal(x).add(new BigDecimal(y)).toString();
+            }
+
+        }
+        return service.submit(new AddRequest());
     }
 }

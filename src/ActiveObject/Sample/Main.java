@@ -1,5 +1,7 @@
-import activeobject.ActiveObject;
-import activeobject.ActiveObjectFactory;
+package ActiveObject.Sample;
+
+import ActiveObject.Sample.activeobject.ActiveObject;
+import ActiveObject.Sample.activeobject.ActiveObjectFactory;
 
 public class Main {
     public static void main(String[] args) {
