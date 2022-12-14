@@ -1,3 +1,5 @@
+package AppendixB.DoubleCheckedLocking;
+
 // ×无法确保能够正确地运行
 import java.util.Date;
 

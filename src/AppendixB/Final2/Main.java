@@ -1,3 +1,5 @@
+package AppendixB.Final2;
+
 class Something {
     // final的实例字段
     private final int x;

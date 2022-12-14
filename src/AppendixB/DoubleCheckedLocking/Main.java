@@ -1,3 +1,5 @@
+package AppendixB.DoubleCheckedLocking;
+
 public class Main {
     public static void main(String[] args) {
         // 线程A

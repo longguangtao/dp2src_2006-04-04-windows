@@ -5,12 +5,12 @@ class SchedulerThread extends Thread {
     public SchedulerThread(ActivationQueue queue) {
         this.queue = queue;
     }
-    public void invoke(MethodRequest request) {
+    public void invoke(MethodRequest<?> request) {
         queue.putRequest(request);
     }
     public void run() {
         while (true) {
-            MethodRequest request = queue.takeRequest();
+            MethodRequest<?> request = queue.takeRequest();
             request.execute();
         }
     }

@@ -1,3 +1,5 @@
+package AppendixB.Volatile3;
+
 class Something {
     private int x = 0;
     private volatile boolean valid = false;

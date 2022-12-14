@@ -1,3 +1,5 @@
+package AppendixB.Volatile2;
+
 class Runner extends Thread {
     private volatile boolean quit = false;
 

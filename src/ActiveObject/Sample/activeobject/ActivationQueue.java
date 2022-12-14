@@ -3,7 +3,7 @@ package ActiveObject.Sample.activeobject;
 
 class ActivationQueue {
     private static final int MAX_METHOD_REQUEST = 100;
-    private final MethodRequest[] requestQueue;
+    private final MethodRequest<?>[] requestQueue;
     private int tail;  // 下次putRequest的位置
     private int head;  // 下次takeRequest的位置
     private int count; // MethodRequest的数量
@@ -14,7 +14,7 @@ class ActivationQueue {
         this.tail = 0;
         this.count = 0;
     }
-    public synchronized void putRequest(MethodRequest request) {
+    public synchronized void putRequest(MethodRequest<?> request) {
         while (count >= requestQueue.length) {
             try {
                 wait();
@@ -26,14 +26,14 @@ class ActivationQueue {
         count++;
         notifyAll();
     }
-    public synchronized MethodRequest takeRequest() {
+    public synchronized MethodRequest<?> takeRequest() {
         while (count <= 0) {
             try {
                 wait();
             } catch (InterruptedException e) {
             }
         }
-        MethodRequest request = requestQueue[head];
+        MethodRequest<?> request = requestQueue[head];
         head = (head + 1) % requestQueue.length;
         count--;
         notifyAll();

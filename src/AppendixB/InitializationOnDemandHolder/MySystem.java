@@ -1,3 +1,5 @@
+package AppendixB.InitializationOnDemandHolder;
+
 import java.util.Date;
 
 public class MySystem {
